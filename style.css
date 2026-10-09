@@ -1,1 +1,247 @@
-/* Empty file for template. Remember to edit only this file and not the HTML file */
+@import url('https://googleapis.com');
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Lora', Georgia, serif;
+  color: #2c3e50;
+  background-color: #fcfbf7;
+  background-image: url('fb07d42a8d5e81d738f57e87df67a320a5fd142a.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 1.2rem 0;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover, a:focus {
+  color: #1abc9c;
+}
+
+.page-wrapper {
+  position: relative;
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+div.main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid #e0dcd3;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid #e0dcd3;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #1a252f;
+}
+
+header h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #556270;
+  margin: 0;
+}
+
+.summary {
+  background: #f4f1ea;
+  padding: 25px;
+  border-left: 4px solid #34495e;
+  font-style: italic;
+}
+
+.summary p {
+  margin: 0;
+}
+
+.preamble {
+  margin-top: 20px;
+}
+
+.preamble h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.preamble p {
+  font-size: 1.05rem;
+}
+
+.explanation {
+  margin-bottom: 30px;
+}
+
+.explanation h3 {
+  font-size: 1.4rem;
+  color: #34495e;
+}
+
+.explanation p {
+  color: #333333;
+}
+
+.participation {
+  margin-bottom: 30px;
+}
+
+.participation h3 {
+  font-size: 1.4rem;
+  color: #34495e;
+}
+
+.participation p {
+  color: #333333;
+}
+
+.benefits {
+  margin-bottom: 30px;
+}
+
+.benefits h3 {
+  font-size: 1.4rem;
+  color: #34495e;
+}
+
+.benefits p {
+  color: #333333;
+}
+
+.requirements {
+  margin-bottom: 30px;
+}
+
+.requirements h3 {
+  font-size: 1.4rem;
+  color: #34495e;
+}
+
+.requirements p {
+  color: #333333;
+}
+
+aside {
+  background: #f4f1ea;
+  padding: 25px;
+  border-radius: 4px;
+}
+
+.sidebar h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+}
+
+.design-selection {
+  margin-bottom: 25px;
+}
+
+.design-selection .select {
+  font-weight: bold;
+}
+
+.design-archives {
+  margin-bottom: 25px;
+}
+
+.design-archives .archives {
+  font-weight: bold;
+}
+
+.zen-resources {
+  margin-bottom: 25px;
+}
+
+.zen-resources .resources {
+  font-weight: bold;
+}
+
+abbr {
+  border-bottom: 1px dotted #34495e;
+  cursor: help;
+}
+
+.design-name {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.designer-name {
+  font-style: italic;
+  color: #7f8c8d;
+}
+
+footer a.zen-validate-html,
+footer a.zen-validate-css,
+footer a.zen-license,
+footer a.zen-accessibility,
+footer a.zen-rss {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  div.main {
+    grid-template-columns: 1fr;
+  }
+  .page-wrapper {
+    margin: 15px;
+    padding: 20px;
+  }
+  header h1 {
+    font-size: 2rem;
+  }
+}
